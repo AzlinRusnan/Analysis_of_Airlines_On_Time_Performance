@@ -38,3 +38,21 @@ Here are the steps to upload the datasets (2008, plane-data, carriers, and airpo
 **Step 1: Transfer File to Virtual Machine**
 
 **Command Prompt:**
+>![Command Prompt](images/commandprompt.png)
+
+Explanation:
+
+In this step, the pscp command (PuTTY Secure Copy) is used to transfer the 2008.csv file from your local Windows machine (specified by the user file path) to the home directory of the user maria_dev on the virtual local machine. The file is now accessible in the virtual machine but not yet in the Hadoop file system.
+
+**Putty:**
+>![Putty](images/putty.png)
+
+Explanation:
+
+Here, the hdfs dfs -put command is used to move the 2008.csv file from the local file system of the virtual machine (where it resides in /home/maria_dev/) to the Hadoop Distributed File System (HDFS). The file is uploaded to the directory /user/maria_dev/flight_data/ in HDFS, making it available for processing by Hadoop.
+
+**Learning Data Manipulation Using Pig**
+
+1. **Data Loading:**
+   
+- Load datasets containing flight records, airport information, carrier details, and plane data into PIG.
