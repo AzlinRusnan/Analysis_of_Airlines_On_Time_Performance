@@ -42,7 +42,7 @@ Here are the steps to upload the datasets (2008, plane-data, carriers, and airpo
 
 Explanation:
 
-In this step, the pscp command (PuTTY Secure Copy) is used to transfer the 2008.csv file from your local Windows machine (specified by the user file path) to the home directory of the user maria_dev on the virtual local machine. The file is now accessible in the virtual machine but not yet in the Hadoop file system.
+In this step, the pscp command (PuTTY Secure Copy) is used to transfer the 2008.csv file from the local Windows machine (specified by the user file path) to the home directory of the user maria_dev on the virtual local machine. The file is now accessible in the virtual machine but not yet in the Hadoop file system.
 
 **Step 2:** Upload File to Hadoop File System
 
