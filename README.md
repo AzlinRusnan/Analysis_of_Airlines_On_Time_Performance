@@ -30,7 +30,7 @@ The source of the data is from [Airline On Time Data](https://www.kaggle.com/dat
 
 We will answer all the questions using Pig
 
-## Methodology 🚀
+## Methodology 🪜
 ### **Uploading Datasets to Hadoop File System**
 
 Here are the steps to upload the datasets (2008, plane-data, carriers, and airports) to the Hadoop File System:
