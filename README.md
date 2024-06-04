@@ -228,3 +228,7 @@ MAX_CANCELLATIONS = ORDER TOTAL_FLIGHT_CANCELLATIONS BY TotalCancellations DESC;
 MOST_CANCELLED_FLIGHT = LIMIT MAX_CANCELLATIONS 1;
 STORE MOST_CANCELLED_FLIGHT INTO '/user/maria_dev/flight_data/results/most_cancelled_flight' USING PigStorage(',');
 ```
+## Findings and Visualizations 📊
+
+**Q1. What are the optimal times of day, days of the week, and times of the year for minimizing flight delays?**
+
