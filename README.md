@@ -232,3 +232,162 @@ STORE MOST_CANCELLED_FLIGHT INTO '/user/maria_dev/flight_data/results/most_cance
 
 **Q1. What are the optimal times of day, days of the week, and times of the year for minimizing flight delays?**
 
+**Optimal times of day for minimizing flight delays**
+>![Optimal times of day for minimizing flight delays](images/hourdelay.png)
+>
+>**Insights:**
+>
+>**1. Early Morning Hours (3 AM - 8 AM):**
+>
+>- The lowest average delays occur between 3 AM and 8 AM, with the average delay dropping to nearly zero around 4 AM to 5 AM. This indicates that flights scheduled during these hours are the least likely to experience significant delays.
+>  
+>**2. Gradual Increase in Delays (9 AM - 8 PM):**
+>
+>- From 9 AM onwards, there is a gradual increase in average delays, reaching a steady rise around 3 PM to 8 PM. Although delays increase during these hours, they remain relatively moderate.
+>**3. Late Evening to Night (9 PM - 2 AM):**
+>  
+>There is a significant increase in delays starting from 9 PM, peaking around midnight to 1 AM with average delays exceeding 100 minutes. Delays then gradually decrease again in the early morning hours.
+
+>**Recommendations:**
+>
+>**1. Schedule Flights in Early Morning:**
+>
+>- To minimize the risk of delays, scheduling flights during the early morning hours (3 AM to 8 AM) is optimal. This period consistently shows the lowest average delays.
+>  
+>**2. Avoid Late Night Flights:**
+>- Late night flights, particularly those scheduled around midnight to 1 AM, should be avoided if possible, as this period experiences the highest average delays.
+>  
+>**3. Monitor Midday to Evening Delays:**
+>- While delays during midday to evening hours (9 AM to 8 PM) are not as high as late-night delays, they gradually increase. It's beneficial to monitor and manage operations carefully during these times to reduce potential delays.
+
+**Optimal days of the week for minimizing flight delays**
+>![Optimal days of the week for minimizing flight delays](images/weekdelay.png)
+>
+>**Insights:**
+>
+>**1. Wednesday as the Optimal Day:**
+>- Observation: Wednesday has the lowest average delay.
+>- Implication: Flights on Wednesdays are the least likely to experience significant delays, suggesting operational stability.
+>
+>**2. Weekend Operations (Saturday and Sunday):**
+>- Observation: Saturday and Sunday also exhibit relatively low average delays.
+>- Implication: Weekend flights tend to face fewer delays, possibly due to lower traffic or more efficient scheduling.
+>
+>**3. High Delay Day (Friday):**
+>- Observation: Friday has the highest average delay.
+>- Implication: This day is prone to congestion and operational bottlenecks, leading to increased delays.
+>
+>**4. Moderate Delay Days (Monday, Tuesday, Thursday):**
+>- Observation: Monday and Tuesday have similar delays, higher than Wednesday, Saturday, and Sunday, but lower than Friday. Thursday also shows moderate delays.
+>- Implication: These days may be affected by cumulative delays from the beginning of the week or increased mid-week travel.
+
+>**Recommendations:**
+>
+>**1. Optimizing Flight Schedules:**
+>- Schedule a higher volume of flights on Wednesdays, Saturdays, and Sundays to leverage the lower delay trends.
+>- Limit the number of flights on Fridays or allocate more buffer time between flights to accommodate potential delays.
+>- Implement flexible scheduling that can adjust based on real-time data and historical delay patterns.
+>
+>**2. Collaboration with Airports and Authorities:**
+>- Work closely with air traffic control and airport authorities to manage congestion and optimize flight paths, particularly on high-delay days.
+>- Advocate for and invest in airport infrastructure improvements that can alleviate bottlenecks and enhance overall efficiency.
+>
+**Optimal times of the year for minimizing flight delays**
+>![Optimal times of the year for minimizing flight delays](images/monthdelay.png)
+>
+>**Insights:**
+>
+>**1. Lowest Delay Month (April):**
+>- Observation: April has the lowest average delay.
+>- Implication: Flights in April are the least likely to experience significant delays, suggesting this is the optimal month for minimizing delays.
+>
+>**2. High Delay Months (January, February, March):**
+>- Observation: February has the highest average delay, followed by January and March.
+>- Implication: These months are prone to higher delays, possibly due to weather conditions, increased travel demand, or operational challenges.
+
+>**Recommendations:**
+>
+>**1. Schedule Optimization:**
+>- Increase flight schedules and volume in April to leverage the lower delay trends.
+>- Implement more conservative scheduling in January, February, and March to account for higher delay risks.
+>- Allocate additional buffer time between flights in high delay months to absorb potential delays without affecting following flights.
+>
+>**2. Weather Preparedness:**
+>- Invest in advanced weather prediction technologies, especially for the winter months (January, February), to anticipate and mitigate weather-related delays.
+>- Develop and implement robust contingency plans for handling weather-related disruptions effectively.
+
+**Q2. What are the primary factors contributing to flight delays?**
+>![primary factors contributing to flight delays](images/countprimaryfactorflightdelay.png)
+>![primary factors contributing to flight delays](images/percentageprimaryfactorflightdelay.png)
+>
+>**Insights:**
+>
+>**1. Late Aircraft is the Leading Cause:**
+>- Aircraft delays are the main cause of both average and percentage delays. This implies that flights that arrive after their scheduled time seriously interfere with the schedule as a whole.
+>
+>**2. National Air System (NAS) and Carrier Related Delays:**
+>- Both NAS and carrier-related issues contribute substantially to delays. This indicates that systemic issues within the air traffic control system and airline operations themselves are key areas of concern.
+>
+>**3. Weather and Security:**
+>- Although security and weather are factors, their influence is much less than that of the other factors. Even though they happen less frequently, weather-related delays can be more unpredictable and challenging to handle.
+
+>**Recommendations:**
+>
+>**1. Improve Turnaround Time for Aircraft:**
+>- Airlines should focus on improving the effectiveness of their turnaround procedures in order to reduce aircraft delays. This could include more effective aircraft maintenance procedures, faster boarding procedures, and improved scheduling.
+
+**Q3. What factors predominantly lead to flight cancellations?**
+>![factors predominantly lead to flight cancellations](images/countcancelfactor.png)
+>![factors predominantly lead to flight cancellations](images/percentagecancelfactor.png)
+>
+>**Insights:**
+>
+>**1. Carrier-Related Issues are the Leading Cause of Cancellations:**
+>- Carrier-related problems are the most significant factor, contributing to 40.46% of cancellations. This includes issues like mechanical problems, crew availability, and operational difficulties.
+>
+>**2. Weather as a Major Contributor:**
+>- Weather-related cancellations account for 39.95% of the total, indicating that adverse weather conditions are nearly as impactful as carrier-related issues in causing flight cancellations.
+>
+>**3. National Air System (NAS) Issues:**
+>- NAS-related cancellations, making up 19.58% of the total, indicate that problems within the air traffic control system or national airspace infrastructure also play a notable role in flight cancellations.
+>
+>**4. Minimal Impact of Security Issues:**
+>- Security issues contribute minimally to flight cancellations, representing only 0.01% of the total. This suggests that while security is crucial, it is not a primary factor in flight cancellations.
+
+>**Recommendations:**
+>
+>**1. Improving Operational Strategy:**
+>- In order to reduce cancellations caused by carriers, airlines should concentrate on strengthening their operational strategy. Improved crew management systems, stronger backup plans, and better maintenance schedules are a few examples of this.
+>
+>**2. Invest in Weather Prediction and Adaptation:**
+>- To address weather-related cancellations, airlines can invest in advanced weather prediction technologies and develop flexible scheduling strategies that allow for rapid adaptation to changing weather conditions.
+
+**Q4. Which flight experiences the most frequent and significant delays and cancellations?**
+
+**Most Frequent and Significant Delays**
+>![Most Frequent and Significant Delays](images/mostfreqandsignificantdelays.png)
+>
+>**Insights:**
+>
+>- Flight number 378 has the most significant delays with a total count of 1420.
+>- This flight is a critical concern and requires targeted attention to address and reduce the delays.
+
+>**Recommendations:**
+>- Conduct a comprehensive root cause analysis to identify the specific reasons behind the significant delays for flight number 378. Factors to investigate include operational issues, aircraft maintenance, crew scheduling, and external factors like weather and air traffic control delays.
+>- Gather and analyze detailed data on each instance of delay for this flight to uncover patterns and common issues.
+
+**Most Frequent Cancellations**
+>![Most Frequent Cancellations](images/mostfreqcalcel.png)
+>
+>**Insights:**
+>
+>- Flight with the most cancellation is flight number 5886 with 70 count of total cancellations.
+>- This flight is experiencing frequent cancellations, indicating systemic issues that need to be addressed to improve reliability.
+
+>**Recommendations:**
+>- Conduct a comprehensive root cause analysis to identify the specific reasons behind the frequent cancellations for flight number 378. Examine factors such as operational constraints, aircraft availability, crew scheduling issues, and external influences like weather conditions.
+>- Collect and analyze data on each cancellation instance to identify patterns and recurring issues that contribute to these cancellations.
+
+## Conclusion:
+
+From the above findings, and after investigating and plotting, we deduced that:
