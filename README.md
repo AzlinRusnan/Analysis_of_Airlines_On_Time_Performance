@@ -247,7 +247,7 @@ STORE MOST_CANCELLED_FLIGHT INTO '/user/maria_dev/flight_data/results/most_cance
 >**3. Late Evening to Night (9 PM - 2 AM):**
 >  
 >There is a significant increase in delays starting from 9 PM, peaking around midnight to 1 AM with average delays exceeding 100 minutes. Delays then gradually decrease again in the early morning hours.
-
+>
 >**Recommendations:**
 >
 >**1. Schedule Flights in Early Morning:**
@@ -280,7 +280,7 @@ STORE MOST_CANCELLED_FLIGHT INTO '/user/maria_dev/flight_data/results/most_cance
 >**4. Moderate Delay Days (Monday, Tuesday, Thursday):**
 >- Observation: Monday and Tuesday have similar delays, higher than Wednesday, Saturday, and Sunday, but lower than Friday. Thursday also shows moderate delays.
 >- Implication: These days may be affected by cumulative delays from the beginning of the week or increased mid-week travel.
-
+>
 >**Recommendations:**
 >
 >**1. Optimizing Flight Schedules:**
@@ -304,7 +304,7 @@ STORE MOST_CANCELLED_FLIGHT INTO '/user/maria_dev/flight_data/results/most_cance
 >**2. High Delay Months (January, February, March):**
 >- Observation: February has the highest average delay, followed by January and March.
 >- Implication: These months are prone to higher delays, possibly due to weather conditions, increased travel demand, or operational challenges.
-
+>
 >**Recommendations:**
 >
 >**1. Schedule Optimization:**
@@ -330,7 +330,7 @@ STORE MOST_CANCELLED_FLIGHT INTO '/user/maria_dev/flight_data/results/most_cance
 >
 >**3. Weather and Security:**
 >- Although security and weather are factors, their influence is much less than that of the other factors. Even though they happen less frequently, weather-related delays can be more unpredictable and challenging to handle.
-
+>
 >**Recommendations:**
 >
 >**1. Improve Turnaround Time for Aircraft:**
@@ -353,7 +353,7 @@ STORE MOST_CANCELLED_FLIGHT INTO '/user/maria_dev/flight_data/results/most_cance
 >
 >**4. Minimal Impact of Security Issues:**
 >- Security issues contribute minimally to flight cancellations, representing only 0.01% of the total. This suggests that while security is crucial, it is not a primary factor in flight cancellations.
-
+>
 >**Recommendations:**
 >
 >**1. Improving Operational Strategy:**
@@ -371,7 +371,7 @@ STORE MOST_CANCELLED_FLIGHT INTO '/user/maria_dev/flight_data/results/most_cance
 >
 >- Flight number 378 has the most significant delays with a total count of 1420.
 >- This flight is a critical concern and requires targeted attention to address and reduce the delays.
-
+>
 >**Recommendations:**
 >- Conduct a comprehensive root cause analysis to identify the specific reasons behind the significant delays for flight number 378. Factors to investigate include operational issues, aircraft maintenance, crew scheduling, and external factors like weather and air traffic control delays.
 >- Gather and analyze detailed data on each instance of delay for this flight to uncover patterns and common issues.
@@ -383,7 +383,7 @@ STORE MOST_CANCELLED_FLIGHT INTO '/user/maria_dev/flight_data/results/most_cance
 >
 >- Flight with the most cancellation is flight number 5886 with 70 count of total cancellations.
 >- This flight is experiencing frequent cancellations, indicating systemic issues that need to be addressed to improve reliability.
-
+>
 >**Recommendations:**
 >- Conduct a comprehensive root cause analysis to identify the specific reasons behind the frequent cancellations for flight number 378. Examine factors such as operational constraints, aircraft availability, crew scheduling issues, and external influences like weather conditions.
 >- Collect and analyze data on each cancellation instance to identify patterns and recurring issues that contribute to these cancellations.
