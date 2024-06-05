@@ -402,7 +402,7 @@ Flight 378 experiences the most significant delays, with 1420 counts. While Flig
 By addressing these factors through targeted strategies, the airline can significantly reduce flight delays and cancellations, leading to improved operational performance, enhanced service quality and higher passenger satisfaction. Implementing these recommendations will help the airline maintain a competetive edge in the industry.
 
 Pro tip 😉:
-- And if you want my advice on when to book your flight, the above charts and recommendations indicate that the early morning hours have the least delays throughout the day.
+- If you want my advice on when to book your flight, the above charts and recommendations indicate that the early morning hours have the least delays throughout the day.
 
 **If you are interested to know more or deeply on python coding for each graphs kindly go to Analysis_of_Airline_On_Time_Performance.ipynb.** 
 
