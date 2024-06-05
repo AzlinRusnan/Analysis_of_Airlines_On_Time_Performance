@@ -7,7 +7,7 @@ This report provides an analysis of flight delays and cancellations for an airli
 ## Problem Statement
 Frequent flight delays and cancellations affect the airline's operations and passenger satisfaction. Identifying the primary reasons behind these disruptions and finding solutions to minimize them is crucial for improving service quality and operational efficiency.
 
-## Objectives:
+## Objectives
 1) Identify the main causes of flight delays and cancellations.
 
 2) Determine the optimal times of the day, days of the week, and months of the year to minimize delays and cancellations.
@@ -389,7 +389,7 @@ STORE MOST_CANCELLED_FLIGHT INTO '/user/maria_dev/flight_data/results/most_cance
 >- Conduct a comprehensive root cause analysis to identify the specific reasons behind the frequent cancellations for flight number 378. Examine factors such as operational constraints, aircraft availability, crew scheduling issues, and external influences like weather conditions.
 >- Collect and analyze data on each cancellation instance to identify patterns and recurring issues that contribute to these cancellations.
 
-## Conclusion:
+## Conclusion
 
 From the above findings, and after investigating and plotting, we deduced that:
 The most significant factor contributing to flight delays is late aircraft, accounting for 37.52% of total delays, with an average delay of 20.98 minutes. Improving aircraft turnaround times and maintenance efficiency is necessary to address this issue. National Air System (NAS) issues are responsible for 28.90% of delays, averaging 16.16 minutes. Enhancing air traffic management and collaboration with air traffic control can help mitigate these delays.
