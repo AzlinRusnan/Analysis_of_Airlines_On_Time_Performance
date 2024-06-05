@@ -391,3 +391,20 @@ STORE MOST_CANCELLED_FLIGHT INTO '/user/maria_dev/flight_data/results/most_cance
 ## Conclusion:
 
 From the above findings, and after investigating and plotting, we deduced that:
+The most significant factor contributing to flight delays is late aircraft, accounting for 37.52% of total delays, with an average delay of 20.98 minutes. Improving aircraft turnaround times and maintenance efficiency is necessary to address this issue. National Air System (NAS) issues are responsible for 28.90% of delays, averaging 16.16 minutes. Enhancing air traffic management and collaboration with air traffic control can help mitigate these delays.
+
+Carrier issues are the leading cause of cancellations, accounting for 40.46% of total cancellations. Improving operational strategies and resource allocation can help mitigate these cancellations. Weather is responsible for 39.95% of cancellations. Advanced weather prediction and proactive planning are necessary to handle weather-related cancellations effectively.
+
+The early morning hours (3 AM - 8 AM) have the lowest average delays, making them the optimal times for scheduling flights. Late night hours (9 PM - 2 AM) experience the highest delays and should be avoided for critical flights. Wednesday, Saturday, and Sunday have the lowest average delays, making them the best days of the week for scheduling flights. Friday has the highest delays and should be managed carefully. April has the lowest average delays, making it the optimal month for scheduling flights. February, January, and March have the highest delays, so scheduling fewer flights during these months can improve performance.
+
+Flight 378 experiences the most significant delays, with 1420 counts. While Flight 5886 has the highest number of cancellations, with 70 counts. How to overcome this delays and cancellations? By addressing the underlying issues through root cause analysis, optimizing scheduling and improving maintanence and communicatuon are necessary.
+
+By addressing these factors through targeted strategies, the airline can significantly reduce flight delays and cancellations, leading to improved operational performance, enhanced service quality and higher passenger satisfaction. Implementing these recommendations will help the airline maintain a competetive edge in the industry.
+
+Pro tip:
+- And if you want my advice on when to book your flight? from the above charts it turns out the early hours of the morning have the least delays over the hours of the day.
+
+If you are interested to know more or deeply on python coding for each graphs kindly go to Analysis_of_Airline_On_Time_Performance.ipynb. 
+
+# <div align="center">Enjoy 👍</div>
+
