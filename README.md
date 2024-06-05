@@ -404,7 +404,7 @@ By addressing these factors through targeted strategies, the airline can signifi
 Pro tip 😉:
 - And if you want my advice on when to book your flight, the above charts and recommendations indicate that the early morning hours have the least delays throughout the day.
 
-If you are interested to know more or deeply on python coding for each graphs kindly go to Analysis_of_Airline_On_Time_Performance.ipynb. 
+**If you are interested to know more or deeply on python coding for each graphs kindly go to Analysis_of_Airline_On_Time_Performance.ipynb.** 
 
 # <div align="center">Enjoy 👍</div>
 
