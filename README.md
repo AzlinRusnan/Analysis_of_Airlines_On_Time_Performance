@@ -244,9 +244,10 @@ STORE MOST_CANCELLED_FLIGHT INTO '/user/maria_dev/flight_data/results/most_cance
 >**2. Gradual Increase in Delays (9 AM - 8 PM):**
 >
 >- From 9 AM onwards, there is a gradual increase in average delays, reaching a steady rise around 3 PM to 8 PM. Although delays increase during these hours, they remain relatively moderate.
+>  
 >**3. Late Evening to Night (9 PM - 2 AM):**
 >  
->There is a significant increase in delays starting from 9 PM, peaking around midnight to 1 AM with average delays exceeding 100 minutes. Delays then gradually decrease again in the early morning hours.
+>- There is a significant increase in delays starting from 9 PM, peaking around midnight to 1 AM with average delays exceeding 100 minutes. Delays then gradually decrease again in the early morning hours.
 >
 >**Recommendations:**
 >
