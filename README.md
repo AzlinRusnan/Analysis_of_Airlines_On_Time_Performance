@@ -392,6 +392,7 @@ STORE MOST_CANCELLED_FLIGHT INTO '/user/maria_dev/flight_data/results/most_cance
 ## Conclusion
 
 From the above findings, and after investigating and plotting, we deduced that:
+
 The most significant factor contributing to flight delays is late aircraft, accounting for 37.52% of total delays, with an average delay of 20.98 minutes. Improving aircraft turnaround times and maintenance efficiency is necessary to address this issue. National Air System (NAS) issues are responsible for 28.90% of delays, averaging 16.16 minutes. Enhancing air traffic management and collaboration with air traffic control can help mitigate these delays.
 
 Carrier issues are the leading cause of cancellations, accounting for 40.46% of total cancellations. Improving operational strategies and resource allocation can help mitigate these cancellations. Weather is responsible for 39.95% of cancellations. Advanced weather prediction and proactive planning are necessary to handle weather-related cancellations effectively.
