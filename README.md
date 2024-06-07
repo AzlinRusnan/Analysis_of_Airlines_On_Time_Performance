@@ -152,7 +152,30 @@ STORE FINAL_PROJECTED INTO '/user/maria_dev/flight_data/joined_data3' USING PigS
 
 ```
 ### 3. **Data Analysis:**
-   
+
+**Load the Joined Data**
+```pig
+-- Load the joined data
+DATA = LOAD '/user/maria_dev/flight_data/joined_data3' 
+USING PigStorage(',') 
+AS (Year:int, Month:int, DayofMonth:int, DayOfWeek:int, DepTime:int, 
+    CRSDepTime:int, ArrTime:int, CRSArrTime:int, UniqueCarrier:chararray, 
+    FlightNum:int, TailNum:chararray, ActualElapsedTime:int, 
+    CRSElapsedTime:int, AirTime:int, ArrDelay:int, DepDelay:int, 
+    Origin:chararray, Dest:chararray, Distance:int, TaxiIn:int, 
+    TaxiOut:int, Cancelled:int, CancellationCode:chararray, 
+    Diverted:int, CarrierDelay:int, WeatherDelay:int, 
+    NASDelay:int, SecurityDelay:int, LateAircraftDelay:int,
+    Origin_iata:chararray, Origin_airport:chararray, Origin_city:chararray,
+    Origin_state:chararray, Origin_country:chararray, Origin_lat:double, Origin_long:double,
+    Dest_iata:chararray, Dest_airport:chararray, Dest_city:chararray,
+    Dest_state:chararray, Dest_country:chararray, Dest_lat:double, Dest_long:double,
+    Code:chararray, Description:chararray,
+    tailnum:chararray, type:chararray, manufacturer:chararray, 
+    issue_date:chararray, model:chararray, status:chararray, 
+    aircraft_type:chararray, engine_type:chararray, year:int);
+```
+  
 **Q1. What are the optimal times of day, days of the week, and times of the year for minimizing flight delays?**
 
 ```pig
