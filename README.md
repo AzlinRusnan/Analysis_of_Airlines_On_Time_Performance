@@ -28,7 +28,7 @@ The source of the data is from [Airline On Time Data](https://www.kaggle.com/dat
 - What factors predominantly lead to flight cancellations?
 - Which flight experiences the most frequent and significant delays and cancellations?
 
-We will answer all the questions using Pig
+We will answer all the questions using Apache Pig
 
 ## Methodology 🪜
 ### **Uploading Datasets to Hadoop File System**
