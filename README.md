@@ -53,7 +53,7 @@ Explanation:
 
 Here, the hdfs dfs -put command is used to move the 2008.csv file from the local file system of the virtual machine (where it resides in /home/maria_dev/) to the Hadoop Distributed File System (HDFS). The file is uploaded to the directory /user/maria_dev/flight_data/ in HDFS, making it available for processing by Hadoop.
 
-### **Learning Data Manipulation Using Pig**
+### **Learning Data Manipulation Using Apache Pig**
 
 ### 1. **Data Loading:**
    
